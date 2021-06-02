@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Дьяконов Ю. А. ЛР2</title>
-	<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
+	<script type="text/javascript" src="jquery.js">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
 				$(".btn-slide").click(function(){
 					$("#panel").slideToggle("slow");
 					$(this).toggleClass("active");
 				})
 			})
-		</script>
-		<script type="text/javascript">
+	</script>
+	<script type="text/javascript">
 		$(document).ready(function(){
 		$(".pane .delete").click(function(){
 		$(this).parents(".pane").animate({ opacity: "hide" }, "slow");});});
-		</script>
-		<script type="text/javascript">
-			$(document).ready(function(){
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
 			$(".run").click(function() {
 			$("#box").animate({opacity: "0.1", left:"+=400"}, 1200)
 			.animate({opacity: "0.4", top: "+=160", height: "40", width: "40"}, "slow") 
@@ -40,20 +42,21 @@
 			$(this).siblings("h3").removeClass("active");
 	})
 	});
-		</script>
+	</script>
 </head>
+
 <body>
 	<a href="index.html">Назад</a>
-		<h2>Примеры из методических указаний</h2>
-			<p>
-				Пример 1
-			</p>
-			<div id="panel">
-				<p>
-				Выдвижная панель
-				</p>
-			</div>
-			<button class="btn-slide">Нажми!</button>
+	<h2>Примеры из методических указаний</h2>
+	<p>
+		Пример 1
+	</p>
+	<div id="panel">
+		<p>
+			Выдвижная панель
+		</p>
+	</div>
+	<button class="btn-slide">Нажми!</button>
 			<br><br>
 			<p>
 				Пример 2
