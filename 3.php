@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $tek=$_GET["tek"];
 $name=$_GET["name"];
 $email=$_GET["email"];

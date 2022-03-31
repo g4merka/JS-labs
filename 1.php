@@ -1,6 +1,6 @@
 <?php
    $tek=$_GET["tek"];
-	$url = "https://habr.com/ru/rss/best/daily/?fl=ru"; 
+	$url = "http://lenta.ru/rss/"; 
    $rss = simplexml_load_file($url);       
    $schiotchik=0;
    foreach ($rss->channel->item as $item) {
